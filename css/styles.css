@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(249, 207, 157);
+    display: inline-flex    ;
+}
+
+div{
+    height: auto;
+    width: auto;
+    padding: 2em;
+    text-align: center;
+}
+table {
+    background-color: aliceblue;
+    border-style: solid;
+}
+#crear-preguntas{
+    border-style: solid;
+    text-align: center;
+    background-color: rgb(228, 182, 125);
+    height: fit-content;
+    width: fit-content;
+    margin: 2em;
+}
+#crear-preguntas > h2{
+    padding: 1em;
+}
