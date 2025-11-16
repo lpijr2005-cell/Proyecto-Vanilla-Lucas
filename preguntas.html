@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Preguntas</title>
+</head>
+
+<body>
+    <form id="crear-preguntas">
+        <h2>Crear preguntas</h2>
+        <div>
+            <label>Pregunta</label>
+            <input type="text" id="pregunta"><br>
+        </div>
+
+        <div>
+            <label><input type="radio" id="verdadero" name="respuesta" required>Verdadero</label>
+            <label><input type="radio" id="falso" name="respuesta" required>Falso</label>
+        </div>
+
+        <div class="puntuacion">
+            <label>Puntuación</label>
+            <input type="number" max="9" min="0" id="puntuacion">
+        </div>
+
+        <div class="botones">
+            <button type="button">Atrás</button>
+            <button type="submit">Grabar</button>
+        </div>
+    </form>
+
+    <aside id="listado-preguntas">
+        <h2>Listado de preguntas</h2>
+        <!--Creamos la tabla para guardar las preguntas y sus demás datos-->
+        <table id="tabla-preguntas">
+            <th>
+            <td>Pregunta</td>
+            <td>Respuesta</td>
+            <td>Puntuacion</td>
+            <td>Estado</td>
+            </th>
+        </table>
+    </aside>
+
+    <script src="javascript/preguntas.js"></script>
+
+
+    </script>
+</body>
+
+</html>
